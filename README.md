@@ -1,4 +1,4 @@
-# One Rep Max Calculator 
+# One Rep Max (1RM) Calculator 
 
 A calculation tool for weightlifters. The user inputs the weight of any given exercise and calculates their estimated one rep max presented in either pounds (lbs) or kilograms (kgs). Future changes include adding percentages of the user's one rep max in order to train for different purposes. 
 
