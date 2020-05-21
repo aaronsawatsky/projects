@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-group">
+        <h3>Rep Max Calculator</h1>
+        <p>Calculate your one-rep max (1RM) for any exercise.<br>Enter a weight of which you can perform 4-6 repitions</p>
+        <label id="weight" for="weight">Weight: </label>
+            <input
+                type="number"
+                id="weight-input"
+                name="weight-input"
+                min="0"
+                max="1000"
+                required/>
+            <span><select id="dropdown" name="scale"required>
+                <option value="lbs" id="lbs">lbs</option>
+                <option value="kgs" id="kgs">kgs</option>
+            </select></span>
+            <label id="rep" for="reps">Repetitions: </label>
+            <input
+                type="number"
+                id="rep-input"
+                name="rep-input"
+                min="4"
+                max="6"
+                required
+                />
+            <br>
+        <button id="btn" onClick="calculate()">Calculate</button>
+        <p id="result">Your one-rep max is: </p>
+    </div>
+<script src="app.js"></script>    
+</body>
+</html>

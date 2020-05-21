@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: verdana;
+}
+
+#weight-input {
+    width: 10em;
+    height: 2em;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+
+#rep-input {
+    width: 10em;
+    height: 2em;
+    padding: 0px 6px 0px 6px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#dropdown {
+    width: 5em;
+    height: 2.3em;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+#btn {
+    color: white;
+    background-color: #0075E2;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+div {
+    margin: auto;
+    border: 1px solid black;
+    max-width: 700px;
+}
