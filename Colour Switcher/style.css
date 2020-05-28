@@ -1,0 +1,32 @@
+* {
+    outline: none;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div {
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.0);
+    border-radius: 2px;
+    height: 100px;
+    width: 200px;
+    transition: background-color 0.5s;
+    font-family: verdana;
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
+}
