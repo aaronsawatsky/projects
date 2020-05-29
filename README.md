@@ -2,7 +2,7 @@
 
 Another project inspired by jsbeginners.com. The project as it stands now displays the current date and time in a small, rounded window. 
 Upcoming changes: 
-  - CSS style the window to mimic an smartphone lock screen (in terms of format and shape)
+  - CSS style the window to mimic a smartphone lock screen (in terms of format and shape)
   - CSS style the font and spacing
   - Add background image
 
