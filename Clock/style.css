@@ -1,0 +1,32 @@
+#clock-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#clock {
+    border: 1px solid black;
+}
+
+div {
+    text-align: center;
+}
+
+header {
+    border: 1px solid black;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#date-container {
+    height: 100%;
+    width: 100%;
+}
+
+#time {
+    font-size: 45px;
+}
