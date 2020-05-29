@@ -6,6 +6,10 @@ Upcoming changes:
   - CSS style the font and spacing
   - Add background image
 
+Things I learned from this project:
+  - The "setTimeout()" function, which in this situation continues to call the nested function (the one that displays the time) every       1000ms (so it updates the current time every second, as if it is running continuously like a regular clock). 
+  - When attempting to break the code, the setTimeout() function seemed to the one that caused the most problems. Without it set at all,     or at an appropriate interval, the clock would not run as it is intended. 
+
 # Colour Switcher
 
 A simple colour switcher application. The inspiration for this project was taken from jsbeginners.com. As the user clicks the button, the JavaScript function randomly selects an index of an array of colours and changes the background of the page. The text value inside the button also changes to the name of the colour that is currently displayed.
