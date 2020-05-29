@@ -1,3 +1,11 @@
+# Clock 
+
+Another project inspired by jsbeginners.com. The project as it stands now displays the current date and time in a small, rounded window. 
+Upcoming changes: 
+  - CSS style the window to mimic an smartphone lock screen (in terms of format and shape)
+  - CSS style the font and spacing
+  - Add background image
+
 # Colour Switcher
 
 A simple colour switcher application. The inspiration for this project was taken from jsbeginners.com. As the user clicks the button, the JavaScript function randomly selects an index of an array of colours and changes the background of the page. The text value inside the button also changes to the name of the colour that is currently displayed.
