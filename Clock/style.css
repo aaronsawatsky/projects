@@ -1,7 +1,11 @@
 #clock-container {
-    border: 1px solid black;
-    border-radius: 5px;
+    background: url("https://c0.wallpaperflare.com/preview/335/291/713/minimal-pastel-iphone-wallpaper-pink.jpg") no-repeat;
+    border-radius: 10px;
     display: inline-block;
+    background-size: contain;
+    height: 979px;
+    width: 652px;
+    text-align: center;
 }
 
 #clock {
@@ -12,14 +16,13 @@ div {
     text-align: center;
 }
 
-header {
-    border: 1px solid black;
-}
-
 p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
+    font-family: arial;
+    letter-spacing: 2px;
 }
 
 #date-container {
@@ -29,4 +32,9 @@ p {
 
 #time {
     font-size: 45px;
+}
+
+#bg-img {
+    z-index: -1;
+    position: absolute;
 }
