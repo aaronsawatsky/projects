@@ -11,7 +11,10 @@ function showTime() {
     let hours = today.getHours();
     if (hours < 10) {
         hours = "0" + hours;
-    };
+    }
+    if (hours > 12) {
+        hours = hours - 12;
+    }
     let minutes = today.getMinutes();
     if (minutes < 10) {
         minutes = "0" + minutes;
@@ -20,7 +23,7 @@ function showTime() {
     if (seconds < 10) {
         seconds = "0" + seconds;
     };
-    currentDate.textContent = dayArr[day] + ", " + monthArr[month] + " " + date + ", " + year;
+    currentDate.innerHTML = dayArr[day] + ", " + monthArr[month] + " " + date + ", " + year;
     currentTime.innerHTML = hours + ":" + minutes + ":" + seconds;
     setTimeout("showTime()", 1000);
 }
