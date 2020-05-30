@@ -2,9 +2,11 @@
 
 Another project inspired by jsbeginners.com. The project as it stands now displays the current date and time in a small, rounded window. 
 Upcoming changes: 
-  - CSS style the window to mimic a smartphone lock screen (in terms of format and shape)
-  - CSS style the font and spacing
-  - Add background image
+  - CSS style the window to mimic a smartphone lock screen (in terms of format and shape) (finished)
+  - CSS style the font and spacing (finished)
+  - Add background image (finished)
+  - Center the entire <div> in the center
+  - Add a gradient background behind the <div>
 
 Things I learned from this project:
   - The "setTimeout()" function, which in this situation continues to call the nested function (the one that displays the time) every       1000ms (so it updates the current time every second, as if it is running continuously like a regular clock). 
