@@ -1,0 +1,91 @@
+#game-screen {
+    border: 1px solid black;
+    height: 800px;
+    width: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(60%);
+}
+
+#boss-screen {
+    top: 0;
+    height: 600px;
+    border: 1px solid red;
+    position: relative;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+#bossHP {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    font-family: verdana;
+}
+
+button {
+    outline: none;
+}
+
+#battle-log {
+    position: absolute;
+    border: 1px solid black;
+    height: 197px;
+    width: 848px;
+    bottom: 0;
+}
+
+#action-btns {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#normAtk-btn {
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-family: verdana;
+}
+
+#heavyAtk-btn {
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-family: verdana;
+}
+
+#magicAtk-btn {
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-family: verdana;
+}
+
+#endTurn-btn {
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-family: verdana;
+}
+

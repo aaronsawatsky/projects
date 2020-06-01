@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-screen">
+        <div id="boss-screen">
+            <img src="https://ssl-forum-files.fobby.net/forum_attachments/0012/6170/Skate_Punk.png">
+            <p id="bossHP">
+                1000 / 1000
+            </p>
+            <p id="playerHP">
+                1000 / 1000
+            </p>
+        </div>
+        <div id="battle-log">
+            <p id="log">
+            </p>  
+        </div>
+        <div id="action-btns">
+            <button id="normAtk-btn" onClick="normAtk();">Normal Attack</button>
+            <button id="heavyAtk-btn" onClick="heavyAtk();" >Heavy Attack</button>
+            <button id="magicAtk-btn" onClick="magicAtk();" >Magic Attack</button>
+            <button id="endTurn-btn" onClick="endTurn();" >End Turn</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>    
+</body>
+</html>
