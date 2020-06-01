@@ -1,3 +1,7 @@
+# Boss Battle
+
+An expanded idea of "War RNG." While "War RNG" only displayed numbers and text, "Boss Battle" has a UI that is akin to classic role-playing games from the 1990s. The user has three different options to attack the enemy, all with varying degrees of attack strength and hit percentage. When the user clicks "End Turn" the boss will attack the user. Any action that occurs will be displayed in the log at the bottom of the screen until either the boss or the player is defeated. 
+
 # Clock 
 
 Another project inspired by jsbeginners.com. The project as it stands now displays the current date and time in a small, rounded window. 
