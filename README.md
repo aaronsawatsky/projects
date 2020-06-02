@@ -5,6 +5,7 @@ Changes thus far:
   - Automated enemy attack using the "setTimeout()" function so that the enemy will initiate an attack 1 second after the user inputs a     command
   - Removed the "End Turn" button
   - CSS styled and positioned the Hit Point counters for both the enemy and user
+  - Disabled attack buttons once either the enemy's or user's Hit Points reach zero
 
 # Clock 
 
