@@ -11,10 +11,10 @@
         <div id="boss-screen">
             <img src="https://ssl-forum-files.fobby.net/forum_attachments/0012/6170/Skate_Punk.png">
             <p id="bossHP">
-                1000 / 1000
+                Skate Punk : 1000 / 1000
             </p>
             <p id="playerHP">
-                1000 / 1000
+                You : 1000 / 1000
             </p>
         </div>
         <div id="battle-log">
@@ -22,10 +22,9 @@
             </p>  
         </div>
         <div id="action-btns">
-            <button id="normAtk-btn" onClick="normAtk();">Normal Attack</button>
-            <button id="heavyAtk-btn" onClick="heavyAtk();" >Heavy Attack</button>
-            <button id="magicAtk-btn" onClick="magicAtk();" >Magic Attack</button>
-            <button id="endTurn-btn" onClick="endTurn();" >End Turn</button>
+            <button id="normAtk-btn" onClick="normAtk();setTimeout(enemyAttack, 1000);">Normal Attack</button>
+            <button id="heavyAtk-btn" onClick="heavyAtk();setTimeout(enemyAttack, 1000);" >Heavy Attack</button>
+            <button id="magicAtk-btn" onClick="magicAtk();setTimeout(enemyAttack, 1000);" >Magic Attack</button>
         </div>
     </div>
 
