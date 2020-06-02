@@ -18,19 +18,36 @@ img {
 #boss-screen {
     top: 0;
     height: 600px;
-    border: 1px solid red;
     position: relative;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 }
 
 #bossHP {
+    top: 0;
+    right: 0;
     position: absolute;
-    bottom: 0;
-    font-size: 30px;
-    left: 50%;
-    margin: 0 auto;
-    transform: translate(-50%, -50%);
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 5px;
     font-family: verdana;
+    width: 220px;
+    text-align: center;
+}
+
+#playerHP {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 5px;
+    font-family: verdana;
+    width: 220px;
+    text-align: center;
 }
 
 button {
@@ -55,7 +72,7 @@ button {
 
 #normAtk-btn {
     border: 1px solid black;
-    height: 50px;
+    height: 66px;
     width: 150px;
     text-align: center;
     line-height: 50px;
@@ -64,7 +81,7 @@ button {
 
 #heavyAtk-btn {
     border: 1px solid black;
-    height: 50px;
+    height: 66px;
     width: 150px;
     text-align: center;
     line-height: 50px;
@@ -73,7 +90,7 @@ button {
 
 #magicAtk-btn {
     border: 1px solid black;
-    height: 50px;
+    height: 66px;
     width: 150px;
     text-align: center;
     line-height: 50px;
