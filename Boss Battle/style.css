@@ -1,3 +1,43 @@
+#welcome-screen {
+    border: 1px solid black;
+    height: 800px;
+    width: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#name {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#name-label {
+    font-family: Verdana;
+    font-size: larger;
+}
+
+#submit {
+    width: 200px;
+    height: 50px;
+    font-family: Verdana;
+    font-size: large;
+}
+
+
 #game-screen {
     border: 1px solid black;
     height: 800px;
@@ -52,6 +92,14 @@ img {
 
 button {
     outline: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    box-shadow: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #23d5ab;
 }
 
 #battle-log {
@@ -60,6 +108,9 @@ button {
     height: 197px;
     width: 848px;
     bottom: 0;
+    padding-left: 10px;
+    font-family: verdana;
+    overflow: auto;
 }
 
 #action-btns {
@@ -72,8 +123,8 @@ button {
 
 #normAtk-btn {
     border: 1px solid black;
-    height: 66px;
-    width: 150px;
+    height: 66.5px;
+    width: 140px;
     text-align: center;
     line-height: 50px;
     font-family: verdana;
@@ -81,8 +132,8 @@ button {
 
 #heavyAtk-btn {
     border: 1px solid black;
-    height: 66px;
-    width: 150px;
+    height: 66.5px;
+    width: 140px;
     text-align: center;
     line-height: 50px;
     font-family: verdana;
@@ -90,8 +141,8 @@ button {
 
 #magicAtk-btn {
     border: 1px solid black;
-    height: 66px;
-    width: 150px;
+    height: 66.5px;
+    width: 140px;
     text-align: center;
     line-height: 50px;
     font-family: verdana;
