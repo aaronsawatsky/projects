@@ -7,6 +7,10 @@ Changes thus far:
   - CSS styled and positioned the Hit Point counters for both the enemy and user
   - Disabled attack buttons once either the enemy's or user's Hit Points reach zero
 
+This project is growing into a Choose Your Own Adventure RPG. 
+  - Added a welcome screen where the user can input their name
+  - The value of the input is then stored in a property within an object dedicated to the user's information, which includes statistics     like strength, critical hit percentages, and so on. 
+
 # Clock 
 
 Another project inspired by jsbeginners.com. The project as it stands now displays the current date and time in a small, rounded window. 
