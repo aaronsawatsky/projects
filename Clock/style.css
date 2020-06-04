@@ -1,11 +1,23 @@
+body {
+    background-color: rgba(0,0,0,0.5);
+}
+
 #clock-container {
     background: url("https://c0.wallpaperflare.com/preview/335/291/713/minimal-pastel-iphone-wallpaper-pink.jpg") no-repeat;
     border-radius: 10px;
-    display: inline-block;
     background-size: contain;
-    height: 979px;
-    width: 652px;
+    height: 489.5px;
+    width: 326px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 30px rgba(0,0,0,0.99);
 }
 
 #clock {
