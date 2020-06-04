@@ -21,6 +21,7 @@ Upcoming changes:
   - Center the entire <div> in the center (finished)
   - Add a gradient background behind the <div> (finished)
   - Add box-shadow to clock container for added style (finished)
+  - Resized clock container to a more manageable size
 
 Things I learned from this project:
   - The "setTimeout()" function, which in this situation continues to call the nested function (the one that displays the time) every       1000ms (so it updates the current time every second, as if it is running continuously like a regular clock). 
