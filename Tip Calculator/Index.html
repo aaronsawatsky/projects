@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>Tip Calculator</h1>
+        </header>
+
+        <form class="bill">
+            <label>$</label>
+            <input 
+                type="number" 
+                class="bill" 
+                id="bill"
+                name="bill" 
+                placeholder="How much was the bill?"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'How much was the bill'" 
+                required/>
+
+        <div class="guests">
+            <p>How many people?</p>
+            <i class="fas fa-minus icon minus fa-lg"></i>
+            <input 
+                type="number" 
+                class="people" 
+                id="people"
+                name="people"
+                placeholder="0"
+                required/>
+            <i class="fas fa-plus icon plus fa-lg"></i>
+        </div>
+
+
+        <div class="service">
+            <p>How was your service?</p>
+            <select name="tip" id="tip" class="tip" required>
+                <option value="" disabled selected>Choose...</option>
+                <option value="5">Shyst 5%</option>
+                <option value="10">Alright 10%</option>
+                <option value="15">Good 15%</option>
+                <option value="20">Chill 20%</option>
+                <option value="30">Sick 30%</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Calculate" class="calculate">
+    </form>
+
+        <div class="resultDiv">
+            <p>Each person pays:</p>
+                <p class="result"></p>
+        </div>
+    
+
+
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

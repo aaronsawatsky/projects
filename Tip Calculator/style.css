@@ -1,0 +1,139 @@
+body {
+    background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    font-size: 20px;
+}
+
+#bill {
+    height: 50px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+
+h1 {
+    margin-bottom: 60px;
+}
+
+.container {
+    max-width: 700px;
+    font-family: verdana;
+    text-align: center;
+    user-select: none;
+    margin-top: 0;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto
+}
+
+div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.2s ease;
+    padding: 3px;
+    margin: 0 10px;
+    transform: translateY(-10px);
+    color: white;
+}
+
+.icon:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.people {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+
+input {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.calculate {
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.1s ease;
+    background-color: rgba(0,0,0,0.0);
+    color: white;
+
+}
+
+.calculate:hover {
+    background-color: #ccc9f7;
+    border: none;
+}
+
+.calculate:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+select {
+    border-color: white;
+    border-radius: 3px;
+    width: 200px;
+    height: 75px;
+    background-color: rgba(0,0,0,0.0);
+    text-align: center;
+    text-align-last: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+option {
+    color: black;
+}
+
+.service {
+    padding-top: 0px;
+}
+
+.resultDiv {
+    background-color: white;
+    color: black;
+}
