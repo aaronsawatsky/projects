@@ -1,0 +1,154 @@
+@font-face {
+    font-family: HarryPotter;
+    src: url(HARRYP__.TTF);
+}
+
+body {
+    background-color: lightgray;
+        text-align: center;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+}
+
+.container {
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.character-cards {
+    display: grid;
+    align-items: center;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    opacity: 0;
+    transition: 0.9s;
+    padding: 15px;
+}
+
+.playing-card {
+    text-align: center;
+    background-color: green;
+    position: relative;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    background-image: url(https://www.redwolf.in/image/catalog/stickers/harry-potter-hogwarts-crest-sticker-india.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-box-shadow: 10px 10px 100px rgb(100, 100, 100);
+    -webkit-box-shadow: 10px 10px 100px rgb(100, 100, 100);
+    box-shadow: 10px 10px 100px rgb(100, 100, 100);
+}
+
+@media (max-width: 1150px) {
+    .playing-card {
+        width: 100px;
+        height: 150px;
+    }
+    .character-cards {
+        grid-column-gap: 3px;
+        grid-row-gap: 3px;
+    }
+}
+
+@media (max-width: 660px) {
+    .playing-card {
+        width: 70px;
+        height: 100px;
+    }
+
+    p {
+        visibility: hidden;
+    }
+}
+
+.playing-card:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+    color: white;
+    font-weight: bolder;
+    font-family: HarryPotter;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-style: italic;
+    letter-spacing: 3px;
+    pointer-events: none;
+    display: none;
+}
+
+.score {
+    font-family: HarryPotter;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    background-color: #FBBB14;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 99;
+    margin-top: 10px;
+    transition: 0.9s;
+    opacity: 0;
+    
+}
+button {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightblue;
+    font-family: HarryPotter;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    position: absolute;
+    top: 50%; 
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:focus {
+    outline: none;
+}
+
+.game-over {
+    width: 300px;
+    height: 100px;
+    -moz-box-shadow: 0 0 100px rgb(100, 100, 100);
+    -webkit-box-shadow: 0 0 100px rgb(100, 100, 100);
+    box-shadow: 0 0 100px rgb(100, 100, 100);
+    background-color: lightcoral;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+.pics {
+    opacity: 1;
+    pointer-events: none;
+}
+
