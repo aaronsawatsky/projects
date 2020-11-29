@@ -38,3 +38,7 @@ A calculation tool for weightlifters. The user inputs the weight of any given ex
 # "War" RNG
 
 A random number generator that mimics a combat scenario in a role-playing game. It compares two numbers against eachother within a range (1-600) that represent attack values for the player and "boss". The higher number wins and the user is greeted with a message: either "You Died" or "You Defeated".
+
+# Harry Potter Memory Game
+
+This is a classic memory game using a simple Harry Potter API. 
