@@ -42,3 +42,14 @@ A random number generator that mimics a combat scenario in a role-playing game. 
 # Harry Potter Memory Game
 
 This is a classic memory game using a simple Harry Potter API. 
+
+# (Monsters Only) Yu-Gi-Oh
+
+Recreating the popular trading card game on the web. Currently this is regular monsters only. But the basic foundation of the real card game is found on this web version. Using the Yu-Gi-Oh API, I've compiled two separate decks (one for the player and another for an opponent) and written several functions to shuffle the cards and draw new cards when needed. This is probably the biggest project I have ever done so far, so I will continue to update as I continue. 
+
+The following features are usable now:
+- Drawing a hand of cards
+- Replenishing hand
+- Placing cards in play
+- Examing cards with a zoomed in image of a selected card
+- A sacrifice/tribute system (like found in the actual card game)
