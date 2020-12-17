@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url(OptimusPrinceps.ttf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+.container {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url(https://steamcommunity.com/economy/profilebackground/items/480650/7f984d083691f22f29b9c8305e1fe09b6e592470.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.icon {
+    height: 100px;
+    width: 250px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.player-deck img {
+    opacity: 0;
+}
+
+
+.opponent-deck img {
+    opacity: 0;
+}
+
+.player-deck:hover {
+    cursor: pointer;
+
+}
+
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.playing-card-one {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 140px;
+    background-image: url(https://ms.yugipedia.com//d/da/Back-JP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.playing-card-two {
+    position: absolute;
+    display: inline-block;
+    height: 200px;
+    width: 140px;
+    background-image: url(https://ms.yugipedia.com//d/da/Back-JP.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.field {
+    height: 850px;
+    width: 850px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.player-hand {
+    pointer-events: none;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 yellow;
+    }
+    40% {
+        box-shadow: 0 0 5px 3px yellow;
+    }
+    80% {
+        box-shadow: 0 0 5px 0px yellow;
+    }
+    100% {
+        box-shadow: 0 0 0px 0px yellow;
+    }
+}
+
+table {
+    
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+td {
+    border: 1px solid white;
+    vertical-align: top;
+    height: 200px;
+    width: 130px;
+}
+
+.nml {
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    font-style: italic;
+    color: yellow;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.zoom {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: auto;
+    /* background-color: rgba(0,0,0,0.4); */
+    display: none;
+}
+
+.zoomed-card {
+    margin: 0 auto;
+    position: absolute;
+    height: 720px;
+    width: 500px;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-top: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: rgba(0,0,0,0.6)
+}
+
+.zoom-buttons {
+    display: inline;
+    text-align: center;
+}
+
+.field-buttons {
+    display: inline;
+    text-align: center;
+}
+
+.field-buttons button {
+    height: 30px;
+    width: 110px;
+    margin: 5px;
+    background-color: green;
+    border: none;
+    font-family: OptimusPrinceps;
+    font-weight: bolder;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+.zoom-buttons button {
+    height: 30px;
+    width: 110px;
+    margin: 5px;
+    background-color: green;
+    border: none;
+    font-family: OptimusPrinceps;
+    font-weight: bolder;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.attack-mode {
+    display: none;
+    text-align: center;
+}
+
+.defence {
+    display: none;
+    text-align: center;
+}
+
+.attack {
+    display: none;
+    text-align: center;
+}
+
+.sacrifice {
+    display: none;
+    text-align: center;
+}
+
+.confirm-sacrifice {
+    display: none;
+    text-align: center;
+}
+
+.graveyard {
+    width: 130px;
+}
