@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <img src="https://www.logolynx.com/images/logolynx/7d/7d281718ef97a07dae931dbc4602d41c.png" alt="">
+            <button class="end">End Turn</button>
+        </div>
+        <div class="field">
+            <div class="zoom">
+                <div class="zoomed-card">
+                    <div class="zoom-buttons">
+                        <button class="set">Set</button>
+                        <button class="attack-mode">Attack Mode</button>
+                        <button class="defence">Defence Mode</button>
+                        <button class="cancel">Cancel</button>
+                    </div>
+                    <div class="field-buttons">
+                        <button class="attack">Attack</button>
+                        <button class="sacrifice">Sacrifice</button>
+                        <button class="confirm-sacrifice">Confirm</button>
+                    </div>
+                    <div class="zoom-card"></div>
+                </div>
+            </div>
+            <table>
+                <tbody>
+                    <tr class="opponent-hand-and-deck">
+                        <td class="opponent-hand1"></td>
+                        <td class="opponent-hand2"></td>
+                        <td class="opponent-hand3"></td>
+                        <td class="opponent-hand4"></td>
+                        <td class="opponent-hand5"></td>
+                        <td class="opponent-deck"></td>
+                    </tr>
+                    <tr>
+                        <td>field1</td>
+                        <td>field2</td>
+                        <td>field3</td>
+                        <td>field4</td>
+                        <td>field5</td>
+                        <td>LP</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="nml">Player: 2000</td>
+                        <td colspan="3" class="nml">Opponent: 2000</td>
+                    </tr>
+                    <tr class="player-field">
+                        <td class="player-field1"></td>
+                        <td class="player-field2"></td>
+                        <td class="player-field3"></td>
+                        <td class="player-field4"></td>
+                        <td class="player-field5"></td>
+                        <td class="graveyard"></td>
+                    </tr>
+                    <tr class="player-hand-and-deck">
+                        <td class="player-hand"></td>
+                        <td class="player-hand"></td>
+                        <td class="player-hand"></td>
+                        <td class="player-hand"></td>
+                        <td class="player-hand"></td>
+                        <td class="player-deck"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
